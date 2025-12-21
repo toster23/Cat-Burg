@@ -1,0 +1,25 @@
+div {
+	background-color: pink;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h1 {
+	color: white;
+	padding-bottom: 100px;
+}
+
+.anim.caption {
+	transform: translateX(-200%);
+	transition: 2s;
+	opacity: 0;
+	font-size: 0px;
+}
+
+.anim.caption.active {
+	transform: translateX(0);
+	opacity: 1;
+	font-size: 100px;
+}
